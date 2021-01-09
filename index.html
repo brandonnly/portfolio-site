@@ -3,7 +3,13 @@
 	<head>
 		<!-- bulma.io CSS CDN Link -->
 		<link
-			href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/bulma.sass"
+			href="https://unpkg.com/bulma-dracula@1.1.1/dist/bulma-dracula.css"
+			rel="stylesheet"
+		/>
+
+		<!-- bulma tooltip extension CDN -->
+		<link
+			href="https://www.jsdelivr.com/package/npm/@creativebulma/bulma-tooltip"
 			rel="stylesheet"
 		/>
 
@@ -33,11 +39,71 @@
 		<title>Brandon Ly</title>
 	</head>
 
-	<body>
+	<body class="is-family-monospace">
 		<section class="section">
 			<div class="container">
-				<h1 class="title">Hello World</h1>
-				<p class="subtitle">My first website with <strong>Bulma</strong>!</p>
+				<div class="level">
+					<div class="level-item">
+						<figure class="image is-128x128">
+							<img class="is-rounded" src="me.jpg" />
+						</figure>
+					</div>
+				</div>
+				<div class="level">
+					<div class="level-item">
+						<p class="title">Hi! I'm Brandon :)</p>
+					</div>
+				</div>
+				<div class="level">
+					<div class="level-item">
+						<p class="subtitle">
+							I'm a highschool senior having a little too much fun with Discord
+							bots and esports.
+						</p>
+					</div>
+				</div>
+				<div class="level">
+					<div class="level-item">
+						<a
+							class="button is-primary is-outlined ml-4 mr-4"
+							href="https://brandonly.me/github"
+							>Github</a
+						>
+						<a
+							class="button is-primary is-outlined ml-4 mr-4"
+							href="https://brandonly.me/linkedin"
+							>LinkedIn</a
+						>
+						<a
+							class="button is-primary is-outlined ml-4 mr-4"
+							href="https://brandonly.me/twitter"
+							>Twitter</a
+						>
+						<a
+							class="button is-primary is-outlined ml-4 mr-4"
+							href="https://brandonly.me/instagram"
+							>Instagram</a
+						>
+						<a
+							class="button is-primary is-outlined ml-4 mr-4"
+							data-tooltip="Tooltip Text"
+							>Discord</a
+						>
+						<a
+							class="button is-primary is-outlined ml-4 mr-4"
+							href="https://vaughanesports.org"
+							>Vaughan Esports</a
+						>
+					</div>
+				</div>
+				<div class="level">
+					<div class="level-item">
+						<p class="subtitle">
+							or you can reach out to me at
+							<a href="mailto:brandon@brandonly.me">brandon@brandonly.me</a>
+						</p>
+					</div>
+				</div>
 			</div>
 		</section>
 	</body>
